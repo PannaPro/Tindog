@@ -1,23 +1,54 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    
+    text-align: center;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat bold', sans-serif;
 }
 
-h1 {
+p {
+    color: #8f8f8f;
+}
+
+
+/* h1 */
+.main-titile {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 60%;
+    text-align: left;
 }
+
+.second-title-text {
+    font-size: 40px;
+
+}
+
+.title-features {
+    margin-top: 15px;
+}
+
+
+/* Title section */
 
 #title {
     background-color: #ff4c68;
     color: #fff;
 }
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* Container */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
 
 /* Nav bar */
 
@@ -43,11 +74,13 @@ h1 {
     color: gold;
 }
 
+
 /* Donwload Bottom */
 
 .donwload-bottom {
     margin: 5% 3% 5% 0;
 }
+
 
 /* Title image */
 
@@ -58,25 +91,16 @@ h1 {
     right: 25%;
 }
 
+ 
 /* Features */
 
 #features {
-    padding: 7% 15%;
     background-color: white;
     position: relative;
 }
 
 .features-container {
-    text-align: center;
-    padding: 4.5%}
-
-h3 {
-    font-family: 'Montserrat bold', sans-serif;
-    margin-top: 15px;
-}
-
-p {
-    color: #8f8f8f;
+    padding: 0% 4.5%
 }
 
 .features-img {
@@ -88,18 +112,20 @@ p {
     color: #ff4c68;
 }
 
+
 /* testimonials */
 
-.testimonials {
-    padding: 7% 15%;
+#testimonials {
     background-color: #ef8172;
-    text-align: center;
     color: #fff;
 }
 
-h2 {
-    font-family: 'Montserrat bold', sans-serif;
-    font-size: 40px;
+#testimonials .container-fluid {
+    padding: 3% 10% 7%;
+}
+
+.review {
+    padding: 0% 10%;
 }
 
 .testimonial-image {
@@ -108,17 +134,17 @@ h2 {
     margin: 20px;
 }
 
+
 /* Press container */
 
 .pres {
-    text-align: center;
-    background-color: #ef8172; 
-    
+    background-color: #ef8172;
+
 }
 
 .press-img {
     width: 15%;
-    margin: 20px 20px 50px;
+    margin: 20px 20px 80px;
 }
 
 
@@ -126,7 +152,6 @@ h2 {
 
 #pricing {
     padding: 80px 80px;
-    text-align: center;
 }
 
 
@@ -142,8 +167,6 @@ h2 {
 
 #cta {
     background-color: #ff4c68;
-    padding: 7% 15%;
-    text-align: center;
 }
 
 .cta-titile {
@@ -153,13 +176,11 @@ h2 {
 }
 
 .donwload-bottom-down {
-        margin: 30px 10px;
-    }
+    margin: 30px 10px;
+}
 
 #footer {
-    padding: 7% 15%;;
     background-color: #fff;
-    text-align: center;
 }
 
 .social-img {
@@ -170,24 +191,24 @@ h2 {
 
 /* MEDIA  */
 
-
 @media (max-width: 992px) {
+    
     #title {
         text-align: center;
     }
 
-    h1 {
+    .main-titile {
         font-size: 40px;
+        text-align: center;
     }
 
     .title-img {
         transform: rotate(0);
         position: static;
         width: 60%;
-
     }
 
-    .testimonial-text {
+    .second-title-text {
         font-size: 30px;
     }
 
