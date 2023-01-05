@@ -3,6 +3,9 @@ body {
     text-align: center;
 }
 
+
+/* h1, h2 h3 and all title in */
+
 h1, h2, h3, h4, h5 {
     font-family: 'Montserrat bold', sans-serif;
 }
@@ -11,8 +14,6 @@ p {
     color: #8f8f8f;
 }
 
-
-/* h1 */
 .main-titile {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 3.5rem;
@@ -31,22 +32,40 @@ p {
 }
 
 
-/* Title section */
+/* Colors */
 
-#title {
-    background-color: #ff4c68;
+.red-color {
+    color: #ef8172;
+}
+
+.red-color-background {
+    background-color: #ef8172;
+}
+
+.white-color {
     color: #fff;
 }
 
-#title .container-fluid {
-    padding: 3% 15% 7%;
-}
 
-
-/* Container */
+/* Container - class for all website */
 
 .container-fluid {
     padding: 7% 15%;
+}
+
+
+/* Title section */
+
+#title .container-fluid {
+    background-color: #ff4c68;
+    padding: 3% 15% 7%;
+}
+
+.title-img {
+    width: 20%;
+    transform: rotate(24deg);
+    position: absolute;
+    right: 25%;
 }
 
 
@@ -71,24 +90,15 @@ p {
 }
 
 .nav-link:hover {
-    color: gold;
+    color: white;
 }
+
 
 
 /* Donwload Bottom */
 
 .donwload-bottom {
     margin: 5% 3% 5% 0;
-}
-
-
-/* Title image */
-
-.title-img {
-    width: 20%;
-    transform: rotate(24deg);
-    position: absolute;
-    right: 25%;
 }
 
  
@@ -104,7 +114,6 @@ p {
 }
 
 .features-img {
-    color: #ef8172;
     font-size: 70px;
 }
 
@@ -114,11 +123,6 @@ p {
 
 
 /* testimonials */
-
-#testimonials {
-    background-color: #ef8172;
-    color: #fff;
-}
 
 #testimonials .container-fluid {
     padding: 3% 10% 7%;
@@ -137,11 +141,6 @@ p {
 
 /* Press container */
 
-.pres {
-    background-color: #ef8172;
-
-}
-
 .press-img {
     width: 15%;
     margin: 20px 20px 80px;
@@ -154,23 +153,18 @@ p {
     padding: 80px 80px;
 }
 
-
 .price-column {
     padding: 3% 2%
 }
 
-.card-header {
-    background-color: #ef8172;
-}
 
-/* cta - bottom-website */
+/* cta - box */
 
 #cta {
     background-color: #ff4c68;
 }
 
 .cta-titile {
-    color: #fff;
     font-family: 'Montserrat-black', sans-serif;
     font-size: 40px;
 }
@@ -179,6 +173,9 @@ p {
     margin: 30px 10px;
 }
 
+
+/* Footer website - box */
+
 #footer {
     background-color: #fff;
 }
@@ -186,6 +183,7 @@ p {
 .social-img {
     padding: 0px 10px 20px;
 }
+
 
 
 
